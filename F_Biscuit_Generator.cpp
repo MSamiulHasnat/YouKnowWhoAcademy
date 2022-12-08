@@ -1,4 +1,4 @@
-// Problem link - https://vjudge.net/contest/468964#problem/C
+// Problem link - https://vjudge.net/contest/468964#problem/F
 
 #include <iostream>
 #include <stdio.h>
@@ -19,8 +19,7 @@ int main(){
 #endif 
 }
 // My Code Starts Here         
-    int a, b;
-    cin >> a >> b;
-    cout << a + b;
+    
+
     return 0;
 }

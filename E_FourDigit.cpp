@@ -1,4 +1,4 @@
-// Problem link - https://vjudge.net/contest/468964#problem/C
+// Problem link - https://vjudge.net/contest/468964#problem/E
 
 #include <iostream>
 #include <stdio.h>
@@ -19,8 +19,19 @@ int main(){
 #endif 
 }
 // My Code Starts Here         
-    int a, b;
-    cin >> a >> b;
-    cout << a + b;
+    int a;
+    int arr[4];
+
+    cin >> a;
+
+    for (int i = 3; i >= 0; i--){
+        arr[i] = a%10;
+        a/=10;
+    }
+
+    for(int i = 0; i <= 3; i++){
+        cout << arr[i];
+    }
+    
     return 0;
 }

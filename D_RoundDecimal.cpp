@@ -1,4 +1,4 @@
-// Problem link - https://vjudge.net/contest/468964#problem/C
+// Problem link - https://vjudge.net/contest/468964#problem/D
 
 #include <iostream>
 #include <stdio.h>
@@ -19,8 +19,10 @@ int main(){
 #endif 
 }
 // My Code Starts Here         
-    int a, b;
-    cin >> a >> b;
-    cout << a + b;
+    float a;
+    cin >> a;
+
+    cout << round(a);
+
     return 0;
 }
