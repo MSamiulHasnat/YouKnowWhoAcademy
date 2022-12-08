@@ -1,4 +1,4 @@
-// Problem link - https://atcoder.jp/contests/abc169/tasks/abc169_a?lang=en
+// Problem link - https://vjudge.net/contest/468964#problem/C
 
 #include <iostream>
 #include <stdio.h>
@@ -21,7 +21,6 @@ int main(){
 // My Code Starts Here         
     int a, b;
     cin >> a >> b;
-    cout << a*b;
 
     return 0;
 }

@@ -1,4 +1,4 @@
-// Problem link - https://atcoder.jp/contests/abc169/tasks/abc169_a?lang=en
+// Problem link - https://vjudge.net/contest/468964#problem/B
 
 #include <iostream>
 #include <stdio.h>
@@ -19,9 +19,12 @@ int main(){
 #endif 
 }
 // My Code Starts Here         
-    int a, b;
+    int a, b, count = 0;
     cin >> a >> b;
-    cout << a*b;
+    for(int i = a; i <= b; i++){
+        count++;
+    }
+    cout << count;
 
     return 0;
 }
