@@ -19,7 +19,10 @@ int main(){
 #endif 
 }
 // My Code Starts Here         
-    
+    int a, b, c;
+    cin >> a >> b >> c;
+    int x = c / a;
+    cout << x * b;
 
     return 0;
 }
