@@ -21,6 +21,17 @@ int main(){
 // My Code Starts Here         
     int a, b;
     cin >> a >> b;
-    cout << a + b;
+
+    int maax = max(a,b);
+    int miin = min(a,b);
+
+    int sum1 = maax + (maax - 1);
+    int sum2 = maax + miin;
+
+    if(sum1 > sum2) {
+        cout << sum1;
+    }
+    else cout << sum2;
+
     return 0;
 }
