@@ -1,0 +1,5 @@
+the value of the integer i = 20
+the value of the long long l = 13
+the value of character c = d
+the value of the float f = 2.97802e-37
+the value of the double d = 3.02826e-314
